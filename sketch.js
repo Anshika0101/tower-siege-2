@@ -12,7 +12,7 @@ var polygon_img;
 
 
 function setup() {
-  world = engine.World;
+  World = engine.World;
   engine = Engine.create();
 
   createCanvas(800,400);

@@ -12,8 +12,8 @@ var polygon_img;
 
 
 function setup() {
-  World = engine.World;
-  engine = Engine.create();
+  engine = Engine.create(); 
+  world = engine.world;
 
   createCanvas(800,400);
   ground = new Ground();
